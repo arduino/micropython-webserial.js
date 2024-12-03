@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+html {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+}
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  width: 100%;
+  padding: 0 2em;
+}
+
+.output {
+  background: black;
+  color: white;
+  padding: 1em;
+  overflow: scroll;
+  max-height: 300px;
+}
+
+.status {
+  padding: 1em 0;
+}
+
+input,
+button,
+textarea {
+  width: 100%;
+}
